@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto Slab', serif;
+    background-color:deepskyblue
 }
 h1{
     font-size: 50px;
@@ -29,7 +30,6 @@ h1{
 }
 .half-width img{
     width: 60%;
-    /* margin-left: 100%; */
    
 }
 .top-banner{
@@ -49,15 +49,26 @@ section{
 .same-work{
    box-shadow: 5px 5px 10px gray;
    border-radius: 5px;
-   height: 80%;
+   height: 60%;
    background-position-x: right;
+   margin: 0;
+   margin: 5px 5px;
+   /* border: 2px solid white; */
 }
 .shape img{
     height: 200px;
-    width: 800px;
+    width: 60%;
     margin-left: 300px;
-    margin-right: 600px;
-    padding-bottom: 2000px;
-    padding-top: 800px;
+    padding-bottom: 1000px;
+    padding-top: 100px;
   
+}
+.footer{
+    text-align: center;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: chocolate;
 }
